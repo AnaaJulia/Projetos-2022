@@ -1,0 +1,389 @@
+    /*Navbar*/
+    .navbar {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .navbar .container{
+        top: -2em;
+    }
+    .navbar-nav .nav-link  {
+        margin-left: 1em;/*espaço entre cada palavra do navbar*/
+        letter-spacing: 1mm;/*espaço entre cada letra do navbar*/
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #fffbfb; /*Cor da letra do navbar*/
+        font-size: 1.2em;/* tamanho das letras do navbar*/
+        font-weight: 700em;
+        font-family: 'Boulder';
+        
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #c89e1f; /**ao passar por cima das letras(navbar)*/
+        
+    }
+    .navbar .container .logo {
+        padding-left: 1em;
+        width: 13em;
+        margin-left: -4em;
+    }
+    .offcanvas {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        visibility: hidden;
+        background-color: #9c884de3;
+        background-clip: padding-box;
+        outline: 0;
+        transition: transform .3s ease-in-out;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+    }
+    /*  Home   inicio  */
+    .home{
+        background-image : url('../img/1.jpeg');
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 115vh;
+        width: auto;
+        min-height: 30em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .home .max-width {/*Cor e tamanho das letras do titulo da img principal  */
+      margin: auto 0 auto 10em;
+      margin-right: 1em;
+      color: #fff;
+    }
+    
+    .home .home-content .text-1 {/*Titulo 1 do background*/
+        letter-spacing: 0px;
+        font-size: 3.5em;
+        margin-left: 4.5em;
+        margin-top: 1.5em;
+        
+    }
+    .home-content .text-1 span{
+        margin-left: 2.6em;
+    }
+    
+    
+    /*Pratos especiais texto*/
+    .especiais{
+        background-color:#ceae4cef;
+     
+    }
+    .pratos{
+        text-align:center;
+        font-size: 3.5rem;
+        padding: 1rem;
+        color: rgb(255, 255, 255);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .pratos span{
+        color:#B90113;
+    }
+    /*Pratos especiais cards*/
+    .container{
+        position: relative;
+        width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .about-content .column-left{
+        width: 30em;
+        height: 25em;
+        object-fit: cover;
+        border-radius: 2em;
+    }
+    
+    /*  sessão sobre */
+    section{
+        padding: 5em 0;
+    }
+    section .title{/* Tudo do titulo sobre*/ 
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 1.4em;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    section .title::before{/*  barra preta em baixo do sobre*/ 
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 5em;
+        height: 3px;
+        background: rgb(0, 0, 0);
+        transform: translateX(-50%);
+    }
+    section .title::after{
+        position: absolute;
+        bottom:-12px;
+        left: 50%;
+        font-size: 20px;
+        background: #fff;
+        color: #f70a0ade;
+        padding: 5px;
+        transform: translateX(-50%);
+    }
+    .sobre{
+        font-family: 'Roboto', sans-serif;
+    }
+    .sobre .about-content{
+        margin-left:5em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10em;
+    }
+    .sobre .title::after{
+        content: "Art Burguer";
+    }
+    .sobre .about-content .right .text {
+        font-size: 2em;
+        margin-left: center;  
+    }
+    .resumo{
+        margin-left: center;
+    }
+    .sobre .about-content .right .text span{
+        color: #f70a0ade;
+    }
+    
+    .sobre .about-content .left img{
+        width: 30em;
+        height: 25em;
+        object-fit: cover;
+        border-radius: 2em;
+    }
+    
+     /*Sobremesa*/
+     .sobremesa{
+        color: #373435;
+        text-align:center;
+        letter-spacing: 7px;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 3em;        
+        font-family: "Arvo", Arial, Tahoma, sans-serif;
+        margin-bottom: 15px;
+        margin-top: -4em;
+       
+     }
+     .listra{
+        top: -3em;
+        height: 5px;
+        width: 50em;
+        margin-left: 17em;
+     }
+     /*Cardápio*/
+    .nosso {
+        color: #373435;
+        text-align:center;
+        letter-spacing: 7px;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 3em;        
+        font-family: "Arvo", Arial, Tahoma, sans-serif;
+        margin-bottom: 15px;
+    }
+    .linha{
+        margin-top: -2em;
+        height: 5px;
+        width: 50em;
+        margin-left: 17em;
+        
+    }
+    
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(3, 3, 3, 0);
+        border-radius: 0.25rem;
+    }
+   
+    .card-text{
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        max-width: 20em;
+        margin: 1.5em 0.5em;
+        margin-left: 3em;
+        
+    }
+    .card-title {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 7em;
+        letter-spacing: 1px;
+       margin-left: 2.2em;
+    }
+    .col {
+        flex: 1 0 0%;
+        margin: -3em;
+        margin-left: 2em;
+        margin-top: 3em;
+    }
+    .col-sm-4 {
+        margin-top: 1.5em;
+    }
+    
+    /*CARDS*/
+    main.cards section.card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        border-radius: 1em;
+        cursor: pointer;
+        height: 25em;
+    }
+    main.cards {
+        display: flex;
+        gap: 50px;
+        padding: 5em;
+        padding-top: 1em;
+        margin: 2em;
+        margin-left: 10em;
+    }
+    main.cards section.card:first-child {
+        margin-left: 1em;
+        height: 25em;
+    }
+    main.cards section.card .img {
+        width: 4.5em;
+        height: 5em;
+    }
+    main.cards section.card img {
+        width: 9.5em;
+        margin-left: -2em;
+    }
+    main.cards section.card h3 {
+        font-size: 100%;
+        margin: 1em ;
+    }
+    main.cards section.card span {
+        font-weight: 2em;
+        max-width: 15em;
+        font-size: 80%;
+        margin: 1.5em 0.5em;
+    }
+    /*  sessão footer  */
+    footer{
+        background:#ceae4cef;
+        padding: 20px 23px;
+        color: #fff;
+        text-align: center;
+    }
+    footer span a{
+        color: #B90113;
+        text-decoration: none;
+    }
+    footer span a:hover{
+        color: #2f55dc;
+        text-decoration: none;
+    }
+    footer span a:hover{
+        text-decoration: underline;
+    }   
+  
+    /*responsividade */
+    @media(min-width: 320px) and(max-width:1200px) {
+        /*NAV*/
+       .home {
+        width: 25em;
+        height: 6em;
+       }
+       .navbar .container .logo {
+           padding-left: 4em;
+           width: 15em;
+           margin-left: -8em;
+       }
+       .navbar .container {
+           top: -4em;
+           margin-right: 10em;
+       }
+       .home .home-content .text-1 {
+        font-size: 2.5em;
+        margin-top: 1.5em;
+        margin-left: -2em;
+       }
+       .home-content .text-1 span {
+        margin-left: -0.em;
+    }
+        .home .max-width {
+            margin: 5em;
+            margin-left: -15em;
+            color: #fff;
+        }
+
+       /*Sobre */
+    .sobre .about-content .left img {
+        width: 15em;
+        height: 14em;
+        object-fit: cover;
+        border-radius: 2em;
+        margin-left: -2em;
+   }
+    .sobre .about-content .right .text {
+        font-size: 1.5em;
+        position: fixed;
+        margin-left: -1em;
+        }
+     
+    @media  (min-width: 576px) and(max-width:1200px) {
+         /*NAV*/
+        .home {
+            width: 25.6em;
+            height: 1em;
+        }
+        .navbar .container .logo {
+            padding-left: 0.1em;
+            margin-left: -2em;
+            width: 10em;
+        }
+        .navbar .container {
+            top: -4em;
+            margin-right: -4em;
+        }
+        .navbar-light .navbar-nav .nav-link{
+            font-size: 1em;/* tamanho das letras do navbar*/
+            font-family: 'Boulder';
+        }
+        .navbar-nav .nav-link  {
+            margin-left: 0.5em;/*espaço entre cada palavra do navbar*/
+            letter-spacing: 1mm;/*espaço entre cada letra do navbar*/
+        } 
+        .navbar .container .logo {
+            padding-left: 0.7em;
+            margin-left: -2em;
+            width: 9.4em;
+        }
+
+        /*Sobre */
+    }
+  
+
+    
+}   
+   
