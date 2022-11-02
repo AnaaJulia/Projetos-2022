@@ -1,6 +1,6 @@
 /* NAVBAR*/
 .navbar-expand-lg .navbar-collapse{
-  margin-left: 20em;
+  margin-left: 24em;
   font-family: Inika;
   font-style: normal;
   font-size: 1.5em;
@@ -21,7 +21,7 @@
   color: rgb(255, 255, 255);
   font-family: 'inika';
   margin-top:19em;
-  margin: 15em;
+  margin: 10em;
   width:26em ;
   line-height: 2.2;
 
@@ -35,7 +35,7 @@
 .product {
   position: relative;
   overflow: hidden;
-  background: #111111;
+  background: #1E1D1E;
   margin-top: -1em;
 
 }
@@ -228,8 +228,25 @@ p{
 /* PAGINA GAMES */
 .navbar-expand-lg{
   background-color: #0E0E0E;
-
+  height: 5em;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+  color:#fefefe;
+}
+
+.navbar-expand-lg .navbar-collapse-2{
+  margin-left: 25em;
+  padding-left: 1em;
+}
+.navimg{
+  margin-left:4em;
+  max-width:100%;
+  height:7em;
+  margin: 0;
+}
+
+
+
 @media screen and (max-width: 1024px){
   
 }
