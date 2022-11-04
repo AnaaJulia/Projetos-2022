@@ -1,6 +1,6 @@
 /* NAVBAR*/
 .navbar-expand-lg .navbar-collapse{
-  margin-left:24em;
+  margin-left:23em;
   font-family: Inika;
   font-style: normal;
   font-size: 1.5em;
@@ -252,27 +252,7 @@ p{
  background-color: #181718;
  
 }
- <div class="card">
-              <img src="img/g1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-              </div>
-              </div>
-            <div class="card">
-              <img src="img/g2.png" class="card-img-top" alt="...">
-               <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-               </div>
-
-            </div>
-            <div class="card">
-              <img src="img/g3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-              </div>
-            </div>
-
-
+ 
 
 
 
