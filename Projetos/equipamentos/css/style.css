@@ -1,6 +1,6 @@
 /* NAVBAR*/
 .navbar-expand-lg .navbar-collapse{
-  margin-left:28em;
+  margin-left:24em;
   font-family: Inika;
   font-style: normal;
   font-size: 1.5em;
@@ -226,6 +226,71 @@ p{
 
 
 /* PAGINA GAMES */
+.navbar-expand-lg{
+  background-color: #0E0E0E;
+  height: 6em;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color:#fefefe;
+}
+
+.navbar-expand-lg .navbar-collapse{
+  margin-left: 25em;
+  padding-left: 1em;
+}
+
+.titgames h2{
+  color: rgb(255, 255, 255);
+ font-style: italic;
+ font-size: 2.9em;
+ margin-top: 5em;
+ padding-left: 3em;
+ margin: 0;
+}
+
+.games{
+ background-color: #181718;
+ 
+}
+ <div class="card">
+              <img src="img/g1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+              </div>
+            <div class="card">
+              <img src="img/g2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+               </div>
+
+            </div>
+            <div class="card">
+              <img src="img/g3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px){
   
