@@ -1,15 +1,25 @@
 /* NAVBAR*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 999;
+  transition: all 0.3s ease;
+  height: 6em;
+}
 .navbar-expand-lg .navbar-collapse{
-  margin-left: 22em;
+  margin-left: 26em;
   padding-left: 2em;
   font-family: Inika;
   font-style: normal;
   font-size: 1.5em;
   line-height: 2em;
+ 
 }
 .navbar-light .navbar-nav .nav-link.active{
   margin-left: 0.9em;
   color: rgb(255, 255, 255);
+
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   background-color: #0e0e0ece;
@@ -30,7 +40,7 @@
 
 /* HOME*/
 #homee{/* imagem de fundo*/
-  background-image: url('../img/Fundo0.png');
+  background-image: url('../img/Fundo.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 102VH;
@@ -38,10 +48,10 @@
 .col-md-6{/* Titulo do home*/
   color: rgb(255, 255, 255);
   font-family: 'inika';
-  margin-top:19em;
-  margin: 10em;
-  width:26em ;
-  line-height: 2.2;
+  left: 8em;
+  margin-top: 13em;
+  padding:5em;
+  width:35em ;
 
 }
 .align-items-start {/* Foi oq resolveu o problema da rolagem em baixo*/
@@ -66,13 +76,14 @@
   margin-top: -9em;
 }
 .product-category {
-  padding: 0 10vw;
-  font-size: 2.3em;
+ margin-left: 3em;
+  font-size: 2.6em;
   margin-bottom: 1.5em;
   text-transform: capitalize;
   font-family: 'Poppins';
   color: #FFFFFF;
   top:2em;
+  
 }
 .product-container {
   padding: 0 6vw;
@@ -182,16 +193,14 @@
 } 
 .card-img-top {
   width: 10%;
-  height: 85%;
+  height: 75%;
   margin-bottom: 1em;
   min-width: 19.5em;
   margin-left: 1em;
   margin-right:1em ;
   transition: transform .70s;
 }
-.card-img-top:hover{
-  transform: scale(1.15);
-}
+
 .card-title{
   font-family:'poppins';
   font-size:1.7em ;
@@ -249,8 +258,8 @@ p{
 
 /* PAGINA GAMES */
 .navbar-expand-lg{
-  background-color: #0E0E0E;
-  height: 6em;
+  background-color: #0e0e0ee5;
+  height: 5em;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   color:#fefefe;
