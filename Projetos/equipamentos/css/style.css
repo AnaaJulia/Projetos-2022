@@ -8,7 +8,7 @@
   height: 6em;
 }
 .navbar-expand-lg .navbar-collapse{
-  margin-left: 26em;
+  margin-left: 29em;
   padding-left: 2em;
   font-family: Inika;
   font-style: normal;
@@ -40,7 +40,7 @@
 
 /* HOME*/
 #homee{/* imagem de fundo*/
-  background-image: url('../img/Fundo.png');
+  background-image: url('../img/Fundo2.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 102VH;
@@ -258,7 +258,7 @@ p{
 
 /* PAGINA GAMES */
 .navbar-expand-lg{
-  background-color: #0e0e0ee5;
+  background-color: #0e0e0e;
   height: 5em;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -277,10 +277,10 @@ p{
 .titgames h2{
   color: rgb(255, 255, 255);
  font-style: italic;
- font-size: 3.5em;
- margin-top: 5em;
+ font-size: 2.9em;
+ margin-top: 0;
  padding-left: 3em;
- padding-top: 1.3em;
+ padding-top: 3.3em;
  margin: 0;
 }
 
@@ -315,16 +315,15 @@ p{
 }
   
 .card-img {
-  width: 65%;
-  height: 75%;
+  width: 45%;
+  height: 65%;
   margin-bottom: 1em;
   min-width: 19.5em;
   margin-left: 1em;
-  margin-right:1em ;
+  margin-right: 1em;
   margin-top: 2em;
   transition: transform .75s;
 }
-
 .card-img:hover{
   transform: scale(1.15);
 }
@@ -333,10 +332,21 @@ p{
 }
 
 
-
-
+.pre-btn img{
+  opacity: 16;
+}
+.nxt-btn img{
+  opacity: 16;
+}
 
 
 @media screen and (max-width: 1024px){
   
 }
+
+
+
+
+
+
+
