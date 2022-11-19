@@ -8,7 +8,7 @@
   height: 6em;
 }
 .navbar-expand-lg .navbar-collapse{
-  margin-left: 29em;
+  margin-left: 26em;
   padding-left: 2em;
   font-family: Inika;
   font-style: normal;
@@ -23,6 +23,12 @@
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   background-color: #0e0e0ece;
+}
+.navbar-brand{
+  margin-top:1.5em ;
+}
+.navbar-brand2{
+  margin-top:0.5em ;
 }
 .dropdown-item {
   display: block;
@@ -299,13 +305,14 @@ p{
   font-weight: 300;
   color: #FFFFFF;
   text-align: center;
+  margin-top: -1em;
 
 }
 .price2  {
   font-weight: 900;
   font-size: 20px;
   color: #FFFFFF;
-  margin-left:6em ;
+  margin-left:4em ;
   margin-top: -2em;
   margin-bottom: 2em;
 }
@@ -315,10 +322,8 @@ p{
 }
   
 .card-img {
-  width: 45%;
-  height: 65%;
-  margin-bottom: 1em;
-  min-width: 19.5em;
+  margin-bottom: 2em;
+  min-width:13em;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 2em;
@@ -339,9 +344,40 @@ p{
   opacity: 16;
 }
 
+.card-img #g1{
+  width: 40%;
+}
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 500px){
+    #tithome{
+      margin-top: -5em;
+      margin-right: 3em;
+    }
+  .navbar-brand{
+    margin-top:-1.2em ;
+  }
+ 
+  .product{
+    margin-top: -17em;
+  }
+  .btn-light{
+    margin-left: 22em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left: 24em;
+  }
+  .card-group>.card{
+    margin-left: 5em;
+  }
   
+ .semana-jogos{
+   margin-bottom: 15em;
+ }
+  .img-fluid {
+    max-width: 80%;
+  }
 }
 
 
