@@ -30,19 +30,7 @@
 .navbar-brand2{
   margin-top:0.5em ;
 }
-.dropdown-item {
-  display: block;
-  width: 100%;
-  padding: 0.25rem 1rem;
-  clear: both;
-  font-weight: 400;
-  color: #f9fafb;
-  text-align: inherit; 
-  text-decoration: none; 
-  white-space: nowrap;
-  background-color: transparent;
-  border: 0;
-}
+
 
 /* HOME*/
 #homee{/* imagem de fundo*/
@@ -358,7 +346,7 @@ p{
   }
  
   .product{
-    margin-top: -17em;
+    margin-top: -18em;
   }
   .btn-light{
     margin-left: 22em;
@@ -378,11 +366,127 @@ p{
   .img-fluid {
     max-width: 80%;
   }
+
+  
+}
+@media screen and (max-width:769px){
+  .navbar-brand{
+    margin-top:-1.3em ;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left: 39em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:40em;
+  }
+  .card-img-top{
+    min-width: 93%;
+  }
+ .semana-jogos{
+   margin-bottom: 15em;
+ }
+ 
+  
+}
+@media screen and (max-width:1024px){
+  .navbar-brand{
+    margin-top:0.4em ;
+  }
+  .navbar-expand-lg .navbar-collapse{
+    margin-left: 12em;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left: 55em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:55em;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left:55em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:55em;
+  }
+  .semana-jogos{
+    margin-bottom: 15em;
+  }
+  .card-img-top{
+    min-width: 95%;
+  }
+}
+@media screen and (max-width:1024px){
+
+  .navbar-expand-lg .navbar-collapse{
+    margin-left: 12em;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left: 55em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:55em;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left:55em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:55em;
+  }
+  .semana-jogos{
+    margin-bottom: 15em;
+  }
+  .card-img-top{
+    min-width: 95%;
+  }
+
 }
 
-
-
-
-
-
-
+@media screen and (max-width:2560px){
+  .navbar-brand{
+    margin-top:0.4em ;
+  }
+}
