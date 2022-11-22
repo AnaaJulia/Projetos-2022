@@ -490,3 +490,49 @@ p{
     margin-top:0.4em ;
   }
 }
+
+
+@media screen and (max-width:1029px){
+
+  .navbar-expand-lg .navbar-collapse{
+    margin-left: 12em;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left: 55em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:55em;
+  }
+  #tithome{
+    margin-top: -4.5em;
+    margin-right: 3em;
+  }
+  .product{
+    margin-top: -16em;
+  }
+  .btn-light{
+    margin-left:55em;
+    border-radius: 5em;
+  }
+  #botao{
+    top:-5em;
+    margin-left:55em;
+  }
+  .semana-jogos{
+    margin-bottom: 15em;
+  }
+  .card-img-top{
+    min-width: 95%;
+  }
+
+}
+
